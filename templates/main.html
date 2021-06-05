@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes from the Camp</title>
+    <link rel="stylesheet" href="/static/CSS/style.css">
+    <link rel="icon" href="/static/png/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<div class="div1">
+    <img id="1" src="/static/png/1.png" alt="Main 1" class="mainImg">
+</div>
+
+<div class="div2">
+    <img id="2" src="/static/png/2.png" alt="Main 2" class="mainImg">
+</div>
+
+<div class="div3">
+    <img id="3" src="/static/png/3.png" alt="Main 3" class="mainImg">
+</div>
+
+<div class="div4">
+    <img id="4" src="/static/png/4.png" alt="Main 4" class="mainImg">
+</div>
+
+<div class="div5">
+
+    <div class="div5_1">
+        <img id="51" src="/static/png/sub_png/5/5_1.png" alt="5_1" class="img5_1">
+        <img id="52" src="/static/png/sub_png/5/5_2.png" alt="5_2" class="img5_2">
+        <img id="53" src="/static/png/sub_png/5/5_3.png" alt="5_3" class="img5_3">
+        <img id="54" src="/static/png/sub_png/5/5_4.png" alt="5_4" class="img5_4">
+    </div>
+
+    <div class="div5_2">
+        <img id="511" src="/static/png/sub_png/sub_5/5_1_1.png" alt="5_1_1" class="img5_1_1" onclick="sub5_1(511)">
+        <img id="521" src="/static/png/sub_png/sub_5/5_2_1.png" alt="5_2_1" class="img5_2_1" onclick="sub5_1(521)">
+        <img id="531" src="/static/png/sub_png/sub_5/5_3_1.png" alt="5_3_1" class="img5_3_1" onclick="sub5_1(531)">
+        <img id="541" src="/static/png/sub_png/sub_5/5_4_1.png" alt="5_4_1" class="img5_4_1" onclick="sub5_1(541)">
+    </div>
+
+</div>
+
+<div class="div6">
+    <img id="6" src="/static/png/6.png" alt="Title 6" class="img6">
+</div>
+
+<div class="div7">
+    <img id="71" src="/static/png/sub_png/7/7_1.png" onclick="sub7_1_1(731, 741)"  alt="7_1" class="img7_1">
+    <img id="72" src="/static/png/sub_png/7/7_2.png" alt="7_2" class="img7_2">
+    <img id="731" src="/static/png/sub_png/sub_7/7_3_1.png" alt="7_3" class="img7_3_1">
+    <img id="741" src="/static/png/sub_png/sub_7/7_4_1.png" alt="7_4" class="img7_4_1">
+    <div id="75" class="box7_3" onclick="sub7_1(731, 741)" onmouseout="box7_1_out(75)" onmouseover="box7_1_over(75)"></div>
+    <div id="76" class="box7_4" onclick="sub7_1(741, 731)" onmouseout="box7_1_out(76)" onmouseover="box7_1_over(76)"></div>
+</div>
+
+<div class="div8">
+    <img id="81" src="/static/png/sub_png/8/8_1.png" onclick="sub8_1_1(841, 851)" alt="8_1" class="img8_1">
+    <img id="82" src="/static/png/sub_png/8/8_2.png" alt="8_2" class="img8_2">
+    <img id="831" src="/static/png/sub_png/sub_8/8_3_1.png" alt="8_3_1" class="img8_3_1">
+    <img id="841" src="/static/png/sub_png/sub_8/8_4_1.png" alt="8_4_1" class="img8_4_1">
+    <img id="851" src="/static/png/sub_png/sub_8/8_5_1.png" alt="8_5_1" class="img8_5_1">
+    <div id="86" class="box8_4" onclick="sub8_1(841, 851)" onmouseout="box8_1_out(86)" onmouseover="box8_1_over(86)"></div>
+    <div id="87" class="box8_5" onclick="sub8_1(851, 841)" onmouseout="box8_1_out(87)" onmouseover="box8_1_over(87)"></div>
+</div>
+
+<div class="div9">
+    <img id="91" src="/static/png/sub_png/9/9_1.png" onclick="sub9_1_1(931, 941, 951)" alt="9_1" class="img9_1">
+    <img id="92" src="/static/png/sub_png/9/9_2.png" alt="9_2" class="img9_2">
+    <img id="931" src="/static/png/sub_png/sub_9/9_3_1.png" alt="9_3_1" class="img9_3_1">
+    <img id="941" src="/static/png/sub_png/sub_9/9_4_1.png" alt="9_4_1" class="img9_4_1">
+    <img id="951" src="/static/png/sub_png/sub_9/9_5_1.png" alt="9_5_1" class="img9_5_1">
+    <div id="96" class="box9_3" onclick="sub9_1(931, 941, 951)" onmouseout="box9_1_out(96)" onmouseover="box9_1_over(96)"></div>
+    <div id="97" class="box9_4" onclick="sub9_1(941, 931, 951)" onmouseout="box9_1_out(97)" onmouseover="box9_1_over(97)"></div>
+    <div id="98" class="box9_5" onclick="sub9_1(951, 931, 941)" onmouseout="box9_1_out(98)" onmouseover="box9_1_over(98)"></div>
+</div>
+
+<div class="div10">
+    <img id="101" src="/static/png/sub_png/10/10_1.png" onclick="sub10_1_1(1031, 1041)" alt="10_1" class="img10_1">
+    <img id="102" src="/static/png/sub_png/10/10_2.png" alt="10_2" class="img10_2">
+    <img id="1031" src="/static/png/sub_png/sub_10/10_3_1.png" alt="10_3_1" class="img10_3_1">
+    <img id="1041" src="/static/png/sub_png/sub_10/10_4_1.png" alt="10_4_1" class="img10_4_1">
+    <div id="105" class="box10_3" onclick="sub10_1(1031, 1041)" onmouseout="box10_1_out(105)" onmouseover="box10_1_over(105)"></div>
+    <div id="106" class="box10_4" onclick="sub10_1(1041, 1031)" onmouseout="box10_1_out(106)" onmouseover="box10_1_over(106)"></div>
+</div>
+
+<div class="div11">
+    <img id="111" src="/static/png/sub_png/11/11_1.png" onclick="sub11_1_1(1131, 1141)" alt="11_1" class="img11_1">
+    <img id="112" src="/static/png/sub_png/11/11_2.png" alt="11_2" class="img11_2">
+    <img id="1131" src="/static/png/sub_png/sub_11/11_3_1.png" alt="11_3_1" class="img11_3_1">
+    <img id="1141" src="/static/png/sub_png/sub_11/11_4_1.png" alt="11_4_1" class="img11_4_1">
+    <div id="115" class="box11_3" onclick="sub11_1(1131, 1141)" onmouseout="box11_1_out(115)" onmouseover="box11_1_over(115)"></div>
+    <div id="116" class="box11_4" onclick="sub11_1(1141, 1131)" onmouseout="box11_1_out(116)" onmouseover="box11_1_over(116)"></div>
+</div>
+
+<div class="div12">
+    <img id="121" src="/static/png/sub_png/12/12_1.png" onclick="sub12_1_1(1231, 1241, 1251)" alt="12_1" class="img12_1">
+    <img id="122" src="/static/png/sub_png/12/12_2.png" alt="12_2" class="img12_2">
+    <img id="1231" src="/static/png/sub_png/sub_12/12_3_1.png" alt="12_3_1" class="img12_3_1">
+    <img id="1241" src="/static/png/sub_png/sub_12/12_4_1.png" alt="12_4_1" class="img12_4_1">
+    <img id="1251" src="/static/png/sub_png/sub_12/12_5_1.png" alt="12_5_1" class="img12_5_1">
+    <div id="126" class="box12_3" onclick="sub12_1(1231, 1241, 1251)" onmouseout="box12_1_out(126)" onmouseover="box12_1_over(126)"></div>
+    <div id="127" class="box12_4" onclick="sub12_1(1241, 1231, 1251)" onmouseout="box12_1_out(127)" onmouseover="box12_1_over(127)"></div>
+    <div id="128" class="box12_5" onclick="sub12_1(1251, 1231, 1241)" onmouseout="box12_1_out(128)" onmouseover="box12_1_over(128)"></div>
+</div>
+
+<div class="div13">
+    <img id="13" src="/static/png/sub_png/13/13.png" alt="credit" class="img13">
+</div>
+
+<script src="/static/JS/app.js"></script>
+</body>
+</html>
